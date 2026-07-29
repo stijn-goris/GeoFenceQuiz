@@ -1,6 +1,7 @@
 {
+  "comment": "VERSIE NIEUWPOORT",
   "config": {
-    "start_screen": "beginscherm.pdf",
+    "start_screen": "beginscherm_nieuwpoort.pdf",
     "current_position_enabled": "true",
     "geolocations_enabled": "true",
     "geolocation_radius_enabled": "true",
@@ -12,11 +13,13 @@
     "button_route": "Route",
     "button_puzzle": "Puzzel",
     "button_back": "Terug",
-    "status_searching": "Zoeken...",
+    "status_searching": "Zoeken ...",
     "status_outside_zone": "Buiten zone",
     "permission_denied_toast": "Zonder locatie-toestemming werkt de app niet !",
     "start_puzzle_text": "Welkom bij de GeofenceQuiz.\n\nWandel alle puzzelstukken bij elkaar tot je de volledige puzzel kunt maken.\n\nVeel succes !!",
-    "start_route_text": "Welkom bij de GeofenceQuiz.\n\nEens je een zone hebt betreden, verschijnt hier de volledige route van de wandeling.\n\nVeel succes !!"
+    "start_route_text": "Welkom bij de GeofenceQuiz.\n\nEens je een zone hebt betreden, verschijnt hier de volledige route van de wandeling.\n\nVeel succes !!",
+    "loading_text": "Loading ...",
+    "sync_failed_toast": "Niet alle bestanden konden worden gedownload.\n\nControleer je internetverbinding."
   },
   "locations": [
     {
@@ -255,7 +258,7 @@
     },
     {
       "id": "geo27",
-      "name": "",
+      "name": "Peter werk 1",
       "latitude": 51.005806000054285,
       "longitude": 3.752914667129517,
       "radius": 20,
@@ -264,7 +267,7 @@
     },
     {
       "id": "geo28",
-      "name": "",
+      "name": "Peter werk 2",
       "latitude": 51.00583300416787,
       "longitude": 3.7535315752029423,
       "radius": 20,
@@ -273,7 +276,7 @@
     },
     {
       "id": "geo29",
-      "name": "",
+      "name": "Peter werk 3",
       "latitude": 51.005706422249574,
       "longitude": 3.7523299455642705,
       "radius": 20,
@@ -282,12 +285,12 @@
     },
     {
       "id": "geo30",
-      "name": "",
+      "name": "Peter werk 4",
       "latitude": 51.00534355216942,
       "longitude": 3.7521234154701237,
       "radius": 20,
       "file": "nieuwpoort_v01_4.pdf",
-      "puzzle": "4"
+      "puzzle": ""
     }
   ],
   "routes": [
