@@ -252,6 +252,42 @@
       "radius": 20,
       "file": "geo26.pdf",
       "puzzle": "geo26_puzzle.png"
+    },
+    {
+      "id": "geo27",
+      "name": "",
+      "latitude": 51.005806000054285,
+      "longitude": 3.752914667129517,
+      "radius": 20,
+      "file": "nieuwpoort_v01_1.pdf",
+      "puzzle": ""
+    },
+    {
+      "id": "geo28",
+      "name": "",
+      "latitude": 51.00583300416787,
+      "longitude": 3.7535315752029423,
+      "radius": 20,
+      "file": "nieuwpoort_v01_2.pdf",
+      "puzzle": ""
+    },
+    {
+      "id": "geo29",
+      "name": "",
+      "latitude": 51.005706422249574,
+      "longitude": 3.7523299455642705,
+      "radius": 20,
+      "file": "nieuwpoort_v01_3.pdf",
+      "puzzle": ""
+    },
+    {
+      "id": "geo30",
+      "name": "",
+      "latitude": 51.00534355216942,
+      "longitude": 3.7521234154701237,
+      "radius": 20,
+      "file": "nieuwpoort_v01_4.pdf",
+      "puzzle": "4"
     }
   ],
   "routes": [
