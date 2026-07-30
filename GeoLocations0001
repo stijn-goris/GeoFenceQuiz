@@ -1,6 +1,7 @@
 {
   "comment": "VERSIE HAMMME [0001]",
   "config": {
+    "pincode_validity_duration_hours": 0.015,
     "start_screen": "beginscherm_hamme.pdf",
     "zoom_buttons_enabled": "true",
     "current_position_enabled": "true",
@@ -9,16 +10,16 @@
     "route_enabled": "true"
   },
   "strings": {
-    "status_format": "GeofenceQuiz Hamme\nChecks: %1$d\nHuidige locatie: %2$s\nDichtste zone: %3$s",
-    "initial_status": "GeofenceQuiz\nChecks: 0\nHuidige locatie: -\nDichtste zone: -",
+    "status_format": "GeofenceQuiz Hamme\nDichtste zone: %3$s",
+    "initial_status": "GeofenceQuiz Hamme\nDichtste zone: -",
     "button_route": "Route",
     "button_puzzle": "Puzzel",
     "button_back": "Terug",
     "status_searching": "Zoeken ...",
     "status_outside_zone": "Buiten zone",
     "permission_denied_toast": "Zonder locatie-toestemming werkt de app niet !",
-    "start_puzzle_text": "Welkom bij de GeofenceQuiz.\n\nWandel alle puzzelstukken bij elkaar tot je de volledige puzzel kunt maken.\n\nVeel succes !!",
-    "start_route_text": "Welkom bij de GeofenceQuiz.\n\nEens je een zone hebt betreden, verschijnt hier de volledige route van de wandeling.\n\nVeel succes !!",
+    "start_puzzle_text": "Wandel alle puzzelstukken bij\nelkaar tot je de volledige puzzel\nkunt maken.\n\nVeel succes !!",
+    "start_route_text": "Eens je een zone hebt betreden, verschijnt hier de volledige route van de wandeling.\n\nVeel succes !!",
     "loading_text": "Loading ...",
     "sync_failed_toast": "Niet alle bestanden konden worden gedownload.\n\nControleer je internetverbinding."
   },

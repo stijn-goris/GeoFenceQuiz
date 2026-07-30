@@ -1,36 +1,37 @@
 {
   "comment": "VERSIE ZELE [0002]",
   "config": {
+    "pincode_validity_duration_hours": 0.015,
     "start_screen": "beginscherm_zele.pdf",
     "zoom_buttons_enabled": "false",
     "current_position_enabled": "true",
-    "geolocations_enabled": "true",
+    "geolocations_enabled": "false",
     "geolocation_radius_enabled": "true",
     "route_enabled": "true"
   },
   "strings": {
-    "status_format": "GeofenceQuiz\nChecks: %1$d\nHuidige locatie: %2$s\nDichtste zone: %3$s",
-    "initial_status": "GeofenceQuiz\nChecks: 0\nHuidige locatie: -\nDichtste zone: -",
+    "status_format": "GeofenceQuiz Zele\nDichtste zone: %3$s",
+    "initial_status": "GeofenceQuiz Zele\nDichtste zone: -",
     "button_route": "Route",
     "button_puzzle": "Puzzel",
     "button_back": "Terug",
     "status_searching": "Zoeken ...",
     "status_outside_zone": "Buiten zone",
     "permission_denied_toast": "Zonder locatie-toestemming werkt de app niet !",
-    "start_puzzle_text": "Welkom bij de GeofenceQuiz.\n\nWandel alle puzzelstukken bij elkaar tot je de volledige puzzel kunt maken.\n\nVeel succes !!",
-    "start_route_text": "Welkom bij de GeofenceQuiz.\n\nEens je een zone hebt betreden, verschijnt hier de volledige route van de wandeling.\n\nVeel succes !!",
+    "start_puzzle_text": "Wandel alle puzzelstukken bij\nelkaar tot je de volledige puzzel\nkunt maken.\n\nVeel succes !!",
+    "start_route_text": "Eens je een zone hebt betreden, verschijnt hier de volledige route van de wandeling.\n\nVeel succes !!",
     "loading_text": "Loading ...",
     "sync_failed_toast": "Niet alle bestanden konden worden gedownload.\n\nControleer je internetverbinding."
   },
-  "locations": [    
+  "locations": [
     {
       "id": "geo1",
       "name": "Peter straat",
       "latitude": 51.06774580779061,
       "longitude": 4.0459004044532785,
       "radius": 15,
-      "file": "nieuwpoort_v01_1.pdf",
-      "puzzle": "stuk_0007.png"
+      "file": "toelichting.pdf",
+      "puzzle": "stuk_0020.png"
     },
     {
       "id": "geo2",
@@ -39,7 +40,7 @@
       "longitude": 4.045490026474,
       "radius": 15,
       "file": "nieuwpoort_v01_2.pdf",
-      "puzzle": "stuk_0008.png"
+      "puzzle": "stuk_0021.png"
     },
     {
       "id": "geo3",
@@ -48,7 +49,7 @@
       "longitude": 4.045203030109406,
       "radius": 15,
       "file": "nieuwpoort_v01_3.pdf",
-      "puzzle": "stuk_0009.png"
+      "puzzle": "stuk_0022.png"
     },
     {
       "id": "geo4",
@@ -57,16 +58,16 @@
       "longitude": 4.044679999351502,
       "radius": 15,
       "file": "nieuwpoort_v01_4.pdf",
-      "puzzle": "stuk_0010.png"
+      "puzzle": "stuk_0023.png"
     },
     {
       "id": "geo5",
       "name": "Peter werk 1",
       "latitude": 51.005806000054285,
       "longitude": 3.752914667129517,
-      "radius": 20,
-      "file": "nieuwpoort_v01_1.pdf",
-      "puzzle": "stuk_0001.png"
+      "radius": 30,
+      "file": "toelichting.pdf",
+      "puzzle": ""
     },
     {
       "id": "geo6",
@@ -74,25 +75,178 @@
       "latitude": 51.00583300416787,
       "longitude": 3.7535315752029423,
       "radius": 20,
-      "file": "nieuwpoort_v01_2.pdf",
-      "puzzle": "stuk_0002.png"
+      "file": "nieuwpoort_v01_1.pdf",
+      "puzzle": "stuk_0020.png"
     },
     {
       "id": "geo7",
       "name": "Peter werk 3",
-      "latitude": 51.005706422249574,
-      "longitude": 3.7523299455642705,
+      "latitude": 51.005681105824465,
+      "longitude": 3.7540733814239506,
       "radius": 20,
-      "file": "nieuwpoort_v01_3.pdf",
-      "puzzle": "stuk_0003.png"
+      "file": "nieuwpoort_v01_2.pdf",
+      "puzzle": "stuk_0021.png"
     },
     {
       "id": "geo8",
       "name": "Peter werk 4",
-      "latitude": 51.00534355216942,
-      "longitude": 3.7521234154701237,
+      "latitude": 51.00553933358851,
+      "longitude": 3.7546259164810185,
+      "radius": 20,
+      "file": "nieuwpoort_v01_3.pdf",
+      "puzzle": "stuk_0022.png"
+    },
+    {
+      "id": "geo9",
+      "name": "",
+      "latitude": 51.005387434283456,
+      "longitude": 3.755189180374146,
       "radius": 20,
       "file": "nieuwpoort_v01_4.pdf",
+      "puzzle": "stuk_0023.png"
+    },
+    {
+      "id": "geo10",
+      "name": "",
+      "latitude": 51.00514439436081,
+      "longitude": 3.7553554773330693,
+      "radius": 20,
+      "file": "nieuwpoort_v02_1.pdf",
+      "puzzle": "stuk_0003.png"
+    },
+    {
+      "id": "geo11",
+      "name": "",
+      "latitude": 51.004945235697186,
+      "longitude": 3.7552267313003544,
+      "radius": 20,
+      "file": "nieuwpoort_v02_2.pdf",
+      "puzzle": "stuk_0014.png"
+    },
+    {
+      "id": "geo12",
+      "name": "",
+      "latitude": 51.00468869107377,
+      "longitude": 3.7550550699234013,
+      "radius": 20,
+      "file": "nieuwpoort_v02_3.pdf",
+      "puzzle": "stuk_0000.png"
+    },
+    {
+      "id": "geo13",
+      "name": "",
+      "latitude": 51.00444227187594,
+      "longitude": 3.7549048662185673,
+      "radius": 20,
+      "file": "nieuwpoort_v02_4.pdf",
+      "puzzle": "stuk_0013.png"
+    },
+    {
+      "id": "geo14",
+      "name": "",
+      "latitude": 51.004256612711615,
+      "longitude": 3.7546795606613164,
+      "radius": 20,
+      "file": "nieuwpoort_v02_5.pdf",
+      "puzzle": "stuk_0010.png"
+    },
+    {
+      "id": "geo15",
+      "name": "",
+      "latitude": 51.00428361772715,
+      "longitude": 3.7543255090713505,
+      "radius": 20,
+      "file": "nieuwpoort_v02_6.pdf",
+      "puzzle": "stuk_0015.png"
+    },
+    {
+      "id": "geo16",
+      "name": "",
+      "latitude": 51.00437813515774,
+      "longitude": 3.753944635391236,
+      "radius": 20,
+      "file": "nieuwpoort_v02_7.pdf",
+      "puzzle": "stuk_0002.png"
+    },
+    {
+      "id": "geo17",
+      "name": "",
+      "latitude": 51.004476028007836,
+      "longitude": 3.7536013126373295,
+      "radius": 20,
+      "file": "nieuwpoort_v02_8.pdf",
+      "puzzle": "stuk_0006.png"
+    },
+    {
+      "id": "geo18",
+      "name": "",
+      "latitude": 51.004560418230035,
+      "longitude": 3.753284811973572,
+      "radius": 20,
+      "file": "nieuwpoort_v02_9.pdf",
+      "puzzle": "stuk_0012.png"
+    },
+    {
+      "id": "geo19",
+      "name": "",
+      "latitude": 51.004681939880314,
+      "longitude": 3.7528824806213383,
+      "radius": 20,
+      "file": "nieuwpoort_v02_10.pdf",
+      "puzzle": "stuk_0001.png"
+    },
+    {
+      "id": "geo20",
+      "name": "",
+      "latitude": 51.0047494517707,
+      "longitude": 3.75259280204773,
+      "radius": 20,
+      "file": "nieuwpoort_v02_11.pdf",
+      "puzzle": "stuk_0007.png"
+    },
+    {
+      "id": "geo21",
+      "name": "",
+      "latitude": 51.00484059266686,
+      "longitude": 3.7523084878921513,
+      "radius": 20,
+      "file": "nieuwpoort_v02_12.pdf",
+      "puzzle": "stuk_0008.png"
+    },
+    {
+      "id": "geo22",
+      "name": "",
+      "latitude": 51.00503300063737,
+      "longitude": 3.7522280216217045,
+      "radius": 20,
+      "file": "nieuwpoort_v02_13.pdf",
+      "puzzle": "stuk_0011.png"
+    },
+    {
+      "id": "geo23",
+      "name": "",
+      "latitude": 51.00525578781675,
+      "longitude": 3.752169013023377,
+      "radius": 20,
+      "file": "nieuwpoort_v02_14.pdf",
+      "puzzle": "stuk_0009.png"
+    },
+    {
+      "id": "geo24",
+      "name": "",
+      "latitude": 51.00549207608026,
+      "longitude": 3.752169013023377,
+      "radius": 20,
+      "file": "nieuwpoort_v02_15.pdf",
+      "puzzle": "stuk_0005.png"
+    },
+    {
+      "id": "geo25",
+      "name": "",
+      "latitude": 51.00572836314015,
+      "longitude": 3.752292394638062,
+      "radius": 20,
+      "file": "nieuwpoort_v02_16.pdf",
       "puzzle": "stuk_0004.png"
     }
   ],

@@ -1,6 +1,7 @@
 {
   "comment": "VERSIE NIEUWPOORT [1122]",
   "config": {
+    "pincode_validity_duration_hours": 0.015,
     "start_screen": "beginscherm_nieuwpoort.pdf",
     "zoom_buttons_enabled": "true",
     "current_position_enabled": "true",
@@ -9,8 +10,8 @@
     "route_enabled": "true"
   },
   "strings": {
-    "status_format": "GeofenceQuiz\nChecks: %1$d\nHuidige locatie: %2$s\nDichtste zone: %3$s",
-    "initial_status": "GeofenceQuiz\nChecks: 0\nHuidige locatie: -\nDichtste zone: -",
+    "status_format": "GeofenceQuiz Nieuwpoort\nDichtste zone: %3$s",
+    "initial_status": "GeofenceQuiz Nieuwpoort\nDichtste zone: -",
     "button_route": "Route",
     "button_puzzle": "Puzzel",
     "button_back": "Terug",
