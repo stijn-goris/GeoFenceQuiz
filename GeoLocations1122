@@ -3,8 +3,8 @@
   "config": {
     "start_screen": "beginscherm_nieuwpoort.pdf",
     "current_position_enabled": "true",
-    "geolocations_enabled": "true",
-    "geolocation_radius_enabled": "true",
+    "geolocations_enabled": "false",
+    "geolocation_radius_enabled": "false",
     "route_enabled": "true"
   },
   "strings": {
