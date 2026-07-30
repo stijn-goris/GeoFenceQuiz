@@ -16,8 +16,8 @@
     "status_searching": "Zoeken ...",
     "status_outside_zone": "Buiten zone",
     "permission_denied_toast": "Zonder locatie-toestemming werkt de app niet !",
-    "start_puzzle_text": "Welkom bij de GeofenceQuiz.\n\nWandel alle puzzelstukken bij elkaar tot je de volledige puzzel kunt maken.\n\nVeel succes !!",
-    "start_route_text": "Welkom bij de GeofenceQuiz.\n\nEens je een zone hebt betreden, verschijnt hier de volledige route van de wandeling.\n\nVeel succes !!",
+    "start_puzzle_text": "Wandel alle puzzelstukken bij\nelkaar tot je de volledige puzzel\nkunt maken.\n\nVeel succes !!",
+    "start_route_text": "Eens je een zone hebt betreden, verschijnt hier de volledige route van de wandeling.\n\nVeel succes !!",
     "loading_text": "Loading ...",
     "sync_failed_toast": "Niet alle bestanden konden worden gedownload.\n\nControleer je internetverbinding."
   },
