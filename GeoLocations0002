@@ -2,6 +2,7 @@
   "comment": "VERSIE ZELE [0002]",
   "config": {
     "start_screen": "beginscherm_zele.pdf",
+    "zoom_buttons_enabled": "false",
     "current_position_enabled": "true",
     "geolocations_enabled": "true",
     "geolocation_radius_enabled": "true",

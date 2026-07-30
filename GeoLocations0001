@@ -2,6 +2,7 @@
   "comment": "VERSIE HAMMME [0001]",
   "config": {
     "start_screen": "beginscherm_hamme.pdf",
+    "zoom_buttons_enabled": "true",
     "current_position_enabled": "true",
     "geolocations_enabled": "true",
     "geolocation_radius_enabled": "true",

@@ -2,6 +2,7 @@
   "comment": "VERSIE NIEUWPOORT [1122]",
   "config": {
     "start_screen": "beginscherm_nieuwpoort.pdf",
+    "zoom_buttons_enabled": "true",
     "current_position_enabled": "true",
     "geolocations_enabled": "false",
     "geolocation_radius_enabled": "false",
