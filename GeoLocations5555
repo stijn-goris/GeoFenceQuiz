@@ -3,6 +3,7 @@
   "config": {
     "pincode_validity_duration_hours": 0.015,
     "start_screen": "beginscherm_merelbeke.pdf",
+    "show_map_on_startup": "true",
     "zoom_buttons_enabled": "false",
     "current_position_enabled": "true",
     "geolocations_enabled": "true",
@@ -10,8 +11,8 @@
     "route_enabled": "true"
   },
   "strings": {
-    "status_format": "GeofenceQuiz Merelbeke\nDichtste zone: %3$s",
-    "initial_status": "GeofenceQuiz\nDichtste zone: -",
+    "status_format": "GeofenceQuiz Merelbeke\nDichtstbijzijnde vraag: %3$s",
+    "initial_status": "GeofenceQuiz\nDichtstbijzijnde vraag: -",
     "button_route": "Route",
     "button_puzzle": "Puzzel",
     "button_back": "Terug",
