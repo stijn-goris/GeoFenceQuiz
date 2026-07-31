@@ -28,9 +28,9 @@
     {
       "id": "geo1",
       "name": "Peter straat",
-      "latitude": 51.06774580779061,
-      "longitude": 4.0459004044532785,
-      "radius": 15,
+      "latitude": 51.06768175863233,
+      "longitude": 4.046101570129395,
+      "radius": 35,
       "file": "toelichting.pdf",
       "puzzle": "stuk_0020.png"
     },
