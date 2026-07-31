@@ -11,8 +11,8 @@
     "route_enabled": "true"
   },
   "strings": {
-    "status_format": "GeofenceQuiz Zele-Merelbeke\nAfstand %3$s",
-    "initial_status": "GeofenceQuiz\nAfstand: -",
+    "status_format": "GeofenceQuiz Zele-Merelbeke\nAfstand tot %3$s",
+    "initial_status": "GeofenceQuiz\nAfstand -",
     "button_route": "Route",
     "button_puzzle": "Puzzel",
     "button_back": "Terug",
