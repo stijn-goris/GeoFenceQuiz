@@ -3,7 +3,7 @@
   "config": {
     "pincode_validity_duration_hours": 0.015,
     "start_screen": "beginscherm_zele.pdf",
-    "zoom_buttons_enabled": "false",
+    "zoom_buttons_enabled": "true",
     "current_position_enabled": "true",
     "geolocations_enabled": "false",
     "geolocation_radius_enabled": "true",
