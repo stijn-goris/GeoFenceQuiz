@@ -1,5 +1,5 @@
 {
-  "comment": "VERSIE ZELE [0002]",
+  "comment": "VERSIE ZELE/MERELBEKE [0002]",
   "config": {
     "pincode_validity_duration_hours": 0.015,
     "start_screen": "beginscherm_zele.pdf",
@@ -10,8 +10,8 @@
     "route_enabled": "true"
   },
   "strings": {
-    "status_format": "GeofenceQuiz Zele\nDichtste zone: %3$s",
-    "initial_status": "GeofenceQuiz Zele\nDichtste zone: -",
+    "status_format": "GeofenceQuiz Zele-Merelbeke\nDichtste zone: %3$s",
+    "initial_status": "GeofenceQuiz\nDichtste zone: -",
     "button_route": "Route",
     "button_puzzle": "Puzzel",
     "button_back": "Terug",
