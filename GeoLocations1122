@@ -7,7 +7,7 @@
     "zoom_buttons_enabled": "true",
     "current_position_enabled": "true",
     "geolocations_enabled": "false",
-    "geolocation_radius_enabled": "false",
+    "geolocation_radius_enabled": "true",
     "route_enabled": "true"
   },
   "strings": {
