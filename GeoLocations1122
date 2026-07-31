@@ -11,8 +11,8 @@
     "route_enabled": "true"
   },
   "strings": {
-    "status_format": "GeofenceQuiz Nieuwpoort\nDichtstbijzijnde vraag: %3$s",
-    "initial_status": "GeofenceQuiz\nDichtstbijzijnde vraag: -",
+    "status_format": "GeofenceQuiz Nieuwpoort\nAfstand tot %3$s",
+    "initial_status": "GeofenceQuiz\nAfstand -",
     "button_route": "Route",
     "button_puzzle": "Puzzel",
     "button_back": "Terug",

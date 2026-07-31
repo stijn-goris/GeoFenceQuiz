@@ -11,8 +11,8 @@
     "route_enabled": "true"
   },
   "strings": {
-    "status_format": "GeofenceQuiz Merelbeke\nDichtstbijzijnde vraag: %3$s",
-    "initial_status": "GeofenceQuiz\nDichtstbijzijnde vraag: -",
+    "status_format": "GeofenceQuiz Merelbeke\nAfstand tot %3$s",
+    "initial_status": "GeofenceQuiz\nAfstand -",
     "button_route": "Route",
     "button_puzzle": "Puzzel",
     "button_back": "Terug",
@@ -27,7 +27,7 @@
   "locations": [
     {
       "id": "geo1",
-      "name": "Controle-zone",
+      "name": "Controle-punt",
       "latitude": 50.98101296958214,
       "longitude": 3.723936080932617,
       "radius": 25,
