@@ -11,7 +11,7 @@
   },
   "strings": {
     "status_format": "GeofenceQuiz Nieuwpoort\nDichtste zone: %3$s",
-    "initial_status": "GeofenceQuiz Nieuwpoort\nDichtste zone: -",
+    "initial_status": "GeofenceQuiz\nDichtste zone: -",
     "button_route": "Route",
     "button_puzzle": "Puzzel",
     "button_back": "Terug",

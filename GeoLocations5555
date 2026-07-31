@@ -11,7 +11,7 @@
   },
   "strings": {
     "status_format": "GeofenceQuiz Merelbeke\nDichtste zone: %3$s",
-    "initial_status": "GeofenceQuiz Merelbeke\nDichtste zone: -",
+    "initial_status": "GeofenceQuiz\nDichtste zone: -",
     "button_route": "Route",
     "button_puzzle": "Puzzel",
     "button_back": "Terug",
