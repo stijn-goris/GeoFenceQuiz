@@ -2,7 +2,7 @@
   "comment": "VERSIE NIEUWPOORT [1122]",
   "config": {
     "pincode_validity_duration_hours": 0.015,
-    "start_screen": "beginscherm_nieuwpoort.pdf",
+    "start_screen": "beginscherm_nieuwpoort.png",
     "show_map_on_startup": "true",
     "zoom_buttons_enabled": "true",
     "current_position_enabled": "true",
